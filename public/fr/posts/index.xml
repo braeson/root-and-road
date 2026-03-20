@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blogue on Root &amp; Road</title>
+    <link>http://localhost:1313/fr/posts/</link>
+    <description>Recent content in Blogue on Root &amp; Road</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 20 Mar 2026 10:07:33 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/fr/posts/first-post/</link>
+      <pubDate>Fri, 20 Mar 2026 10:07:33 -0400</pubDate>
+      <guid>http://localhost:1313/fr/posts/first-post/</guid>
+      <description>&lt;p&gt;Bonjour monde.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

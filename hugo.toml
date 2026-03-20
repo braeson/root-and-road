@@ -1,0 +1,37 @@
+baseURL = "https://rootandroad.com/"
+title = "Root & Road"
+theme = "PaperMod"
+
+[params]
+  subtitle = "Overthink It"
+  description = "A bilingual resource hub and blog about ultra-distance cycling"
+  homeInfoParams = {Title = "Root & Road", Content = "Overthink It"}
+  showAllPagesInArchive = true
+displayFullLangName = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    [[languages.en.menus.main]]
+      name = "Home"
+      url = "/en/"
+      weight = 0
+    [[languages.en.menus.main]]
+      name = "Blog"
+      url = "/en/posts/"
+      weight = 1
+
+  [languages.fr]
+    languageName = "Français"
+    weight = 2
+    contentDir = "content/fr"
+    [[languages.fr.menus.main]]
+      name = "Accueil"
+      url = "/fr/"
+      weight = 0
+    [[languages.fr.menus.main]]
+      name = "Blogue"
+      url = "/fr/posts/"
+      weight = 1
