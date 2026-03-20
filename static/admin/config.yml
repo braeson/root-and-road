@@ -1,0 +1,28 @@
+backend:
+  name: github
+  repo: braeson/root-and-road
+  branch: main
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: "posts-en"
+    label: "Posts (English)"
+    folder: "content/en/posts"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "posts-fr"
+    label: "Posts (Français)"
+    folder: "content/fr/posts"
+    create: true
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Brouillon", name: "draft", widget: "boolean", default: false}
+      - {label: "Contenu", name: "body", widget: "markdown"}
