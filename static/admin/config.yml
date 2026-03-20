@@ -2,8 +2,7 @@ backend:
   name: github
   repo: braeson/root-and-road
   branch: main
-  base_url: https://root-and-road.pages.dev
-  auth_endpoint: api/auth
+
 
 media_folder: static/images
 public_folder: /images
